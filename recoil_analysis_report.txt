@@ -1,0 +1,52 @@
+Analisis Pola Recoil Senjata dalam PUBG Mobile
+
+1. Karakteristik Recoil Vertikal:
+
+a) AKM
+- Koefisien waktu (α₁) tertinggi: 595.79, menunjukkan peningkatan recoil vertikal yang sangat signifikan seiring waktu
+- Koefisien peluru (α₂) negatif: -77.68, mengindikasikan sedikit pengurangan recoil setelah beberapa tembakan
+- Pattern effect (α₃) tertinggi: 19.28, menunjukkan pola recoil yang kompleks dan sulit dikontrol
+
+b) M416
+- Koefisien waktu moderat: 397.71, menunjukkan recoil vertikal yang lebih terkendali dibanding AKM
+- Pattern effect moderat: 3.21, mengindikasikan pola yang lebih mudah diprediksi
+- RMSE vertikal (910.69) menunjukkan variabilitas menengah
+
+c) SCAR-L
+- Koefisien waktu terendah: -21.41, menunjukkan kontrol recoil vertikal yang sangat baik
+- Pattern effect minimal: 1.06, mengindikasikan pola yang sangat stabil
+- RMSE vertikal terendah (303.65) menunjukkan konsistensi tinggi
+
+2. Karakteristik Recoil Horizontal:
+
+a) AKM
+- Spread horizontal moderat dengan koefisien waktu 131.28
+- RMSE horizontal terendah (787.94) menunjukkan spread yang relatif terkontrol
+
+b) M416
+- Menunjukkan tendensi spread negatif (-298.50)
+- RMSE horizontal tertinggi (2044.69) mengindikasikan spread yang lebih tidak terprediksi
+
+c) SCAR-L
+- Koefisien spread horizontal tertinggi (476.44)
+- RMSE horizontal moderat (1141.64)
+
+3. Implikasi untuk Gameplay:
+
+a) AKM
+- Ideal untuk pertempuran jarak dekat hingga menengah
+- Membutuhkan kontrol recoil vertikal yang aktif
+- Spread horizontal yang terprediksi memungkinkan akurasi yang baik
+
+b) M416
+- Seimbang untuk berbagai jarak pertempuran
+- Recoil vertikal moderat memungkinkan burst firing yang efektif
+- Perlu antisipasi spread horizontal yang bervariasi
+
+c) SCAR-L
+- Sangat efektif untuk pertempuran jarak menengah
+- Recoil vertikal yang minimal memungkinkan akurasi tinggi
+- Pattern yang konsisten ideal untuk pemain pemula
+
+Kesimpulan:
+Hasil analisis mengkonfirmasi karakteristik yang dikenal dari ketiga senjata ini, dengan AKM menunjukkan recoil terkuat namun terprediksi, M416 menawarkan keseimbangan, dan SCAR-L unggul dalam stabilitas. Pemilihan senjata sebaiknya disesuaikan dengan gaya bermain dan kemampuan mengontrol recoil masing-masing pemain.
