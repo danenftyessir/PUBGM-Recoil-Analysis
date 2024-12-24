@@ -1,0 +1,13 @@
+# Data processing
+numpy==2.0.2
+pandas==2.2.3
+
+# Visualisasi
+matplotlib==3.9.3
+seaborn==0.13.2
+
+# OpenCV untuk video processing
+opencv-python==4.10.0.84
+
+# Color text output
+colorama==0.4.6
