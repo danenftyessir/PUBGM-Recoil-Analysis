@@ -66,3 +66,5 @@ python recoil_analysis.py
 * Danendra Shafi Athallah (13523136)
 * Institut Teknologi Bandung
 
+## Acknowledgements
+[pubgmobile.com](https://www.pubgmobile.com/) atas penyediaan data senjata-nya.
