@@ -32,7 +32,7 @@ git clone https://github.com/danenftyessir/PUBGM-Recoil-Analysis.git
 ```bash
 pip install -r requirements.txt
 ```
-Jalankan program:
+3. Jalankan program:
 ```bash
 # Ekstraksi data recoil
 python src/recoil_extractor.py
