@@ -3,7 +3,6 @@
   <img src="PUBG Logo.jpeg" alt="PUBG Mobile Logo" width="400"/>
   <br><br>
 </div>
-
 ## Deskripsi
 Program ini mengimplementasikan Sistem Persamaan Linear untuk menganalisis dan memprediksi pola recoil senjata dalam PUBG Mobile. Menggunakan Python dan CSV untuk ekstraksi data, analisis matematis, serta visualisasi pola recoil dari tiga senjata assault rifle populer (AKM, M416, dan SCAR-L). Dibuat untuk tujuan penelitian dan pengembangan model prediktif dalam game PUBG Mobile.
 
