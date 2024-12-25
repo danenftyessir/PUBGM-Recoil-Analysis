@@ -1,6 +1,6 @@
 <h1 align="center" style="font-size: 3.5em;">PUBGM Recoil Analysis</h1>
 <div align="center">
-  <img src="PUBG Logo.jpeg" alt="PUBG Mobile Logo" width="200"/>
+  <img src="PUBG Logo.jpeg" alt="PUBG Mobile Logo" width="400"/>
   <br><br>
 </div>
 
