@@ -1,70 +1,65 @@
-# PUBGM_Recoil_Analysis
+<h1 align="center" style="font-size: 3.5em;">PUBGM Recoil Analysis</h1>
+<div align="center">
+  <img src="PUBG Logo.png" alt="PUBG Mobile Logo" width="200"/>
+  <br><br>
+</div>
 
-## Overview
+## Deskripsi
+Program ini mengimplementasikan Sistem Persamaan Linear untuk menganalisis dan memprediksi pola recoil senjata dalam PUBG Mobile. Menggunakan Python dan CSV untuk ekstraksi data, analisis matematis, serta visualisasi pola recoil dari tiga senjata assault rifle populer (AKM, M416, dan SCAR-L). Dibuat untuk tujuan penelitian dan pengembangan model prediktif dalam game PUBG Mobile.
 
-Program ini mengimplementasikan Sistem Persamaan Linear untuk menganalisis dan memprediksi pola recoil senjata dalam PUBG Mobile. Program menggunakan data yang dikumpulkan dari tiga senjata assault rifle populer (AKM, M416, dan SCAR-L) untuk menghasilkan model matematis yang menjelaskan karakteristik recoil vertikal dan horizontal.
+## Fitur
 
-## Features
-
-* **Ekstraksi Data**: Mengumpulkan dan memproses data recoil pattern langsung dari PUBG Mobile dengan tingkat akurasi tinggi.
-
-* **Analisis Matematis**: Menerapkan sistem persamaan linear untuk menghasilkan model prediktif yang akurat dari pola recoil.
-
-* **Visualisasi Komprehensif**: Menyajikan representasi visual dari pola recoil dan koefisien untuk pemahaman yang lebih baik.
-
+* **Ekstraksi Data**: Mengumpulkan dan memproses data pola recoil secara akurat dari PUBG Mobile.
+* **Analisis Matematis**: Menerapkan sistem persamaan linear untuk menghasilkan model prediktif pola recoil.
+* **Visualisasi Komprehensif**: Menyajikan representasi visual dari pola recoil dan koefisien model.
 * **Perbandingan Senjata**: Menyediakan analisis komparatif mendalam antara berbagai jenis assault rifle.
 
-* **Laporan Terperinci**: Menghasilkan dokumentasi lengkap dari hasil analisis untuk referensi dan studi lebih lanjut.
+## All Dependencies
 
-## Requirements
+* Python 3.8+
+* Pandas untuk pengolahan data
+* NumPy untuk komputasi numerik
+* Matplotlib dan Seaborn untuk visualisasi
+* CSV untuk penyimpanan data
 
-* Python 3.12 atau yang lebih tinggi
-* NumPy 2.0.2 atau yang lebih tinggi
-* Pandas 2.2.3 atau yang lebih tinggi
-* Matplotlib 3.9.3 atau yang lebih tinggi
-* Seaborn 0.13.2 atau yang lebih tinggi
+## Cara Penggunaan
 
-## Installation
-
+1. Clone repository:
 ```bash
-# Clone repositori
-git clone https://github.com/danenftyessir/PUBGM_Recoil_Analysis.git
-
-# Masuk ke direktori proyek
-cd PUBGM_SPL_Recoil_Pattern
-
-# Install dependencies
+git clone https://github.com/danenftyessir/PUBGM-Recoil-Analysis.git
+```
+2. Install dependencies:
+```bash
 pip install -r requirements.txt
 ```
-
-## Usage
-
+Jalankan program:
 ```bash
-# Run ekstraksi data
-python recoil_extractor.py
+# Ekstraksi data recoil
+python src/recoil_extractor.py
 
-# Run pengolahan data
-python recoil_processor.py
+# Pengolahan data recoil
+python src/recoil_processor.py
 
-# Run model recoil
-python recoil_model.py
+# Membuat model recoil
+python src/recoil_model.py
 
-# Run analisis
-python recoil_analysis.py
+# Melakukan analisis recoil
+python src/recoil_analysis.py
 ```
 
-## Room for Improvement
+## Kontributor
+Danendra Shafi Athallah - 13523136
+Program Studi Teknik Informatika
+Institut Teknologi Bandung
 
-* Ekspansi Analisis: Menambahkan dukungan untuk berbagai jenis senjata lainnya dalam game.
-* Antarmuka Pengguna: Mengembangkan GUI yang interaktif untuk visualisasi real-time dari pola recoil.
-* Sistem Attachment: Mengintegrasikan pengaruh berbagai attachment senjata terhadap pola recoil.
-* Peningkatan Akurasi: Mengoptimalkan model prediksi untuk hasil yang lebih akurat.
-* Menambah jenis lainnya: Mengembangkan recoil pattern untuk SMG class/LMG class/DMR class.
+## Catatan
+Repository ini hanya berisi alat analisis dan tidak memodifikasi file game atau berinteraksi dengan klien PUBG Mobile. Dibuat untuk tujuan pendidikan dan penelitian sebagai bagian dari pengembangan model prediktif pola recoil dalam game.
 
-## Author
+## Kontak
+Untuk pertanyaan dan saran, silakan hubungi:
+* Email: danendra1967@gmail.com
+* GitHub: @danenftyessir
 
-* Danendra Shafi Athallah (13523136)
-* Institut Teknologi Bandung
-
-## Acknowledgements
-[pubgmobile.com](https://www.pubgmobile.com/) atas penyediaan data senjata-nya.
+<div align="center">
+© 2024 Danendra Shafi Athallah. All rights reserved.
+</div>
